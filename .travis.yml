@@ -17,7 +17,7 @@ addons:
 
 before_install:
   # Position ourselves to start the test in "script" phase
-  - cd ~/build/fronteerio/grasshopper
+  - cd ~/build/CUL-DigitalServices/grasshopper
 
   # Configure postgres
   - psql -c 'create database grasshoppertest;' -U postgres
@@ -38,6 +38,9 @@ after_success:
 
 notifications:
   email:
-    - branden@fronteer.io
-    - nicolaas@fronteer.io
-    - simon@fronteer.io
+    - bp323@cam.ac.uk
+    - md623@cam.ac.uk
+  irc:
+    channels:
+      - "irc.freenode.org#ucam-ds"
+    skip_join: true
