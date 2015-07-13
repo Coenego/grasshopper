@@ -1,7 +1,7 @@
 {
   "name": "grasshopper",
   "description": "Grasshopper Event Engine",
-  "version": "0.3.1",
+  "version": "0.3.4",
   "author": {
     "name": "Fronteer LTD"
   },
@@ -75,9 +75,10 @@
     "grunt-contrib-clean": "latest",
     "grunt-contrib-jshint": "latest",
     "grunt-jscs": "latest",
-    "grunt-mocha-hack": "latest",
+    "grunt-mocha-hack": "git://github.com/gregrperkins/grunt-mocha-hack#4b74f8c",
     "grunt-text-replace": "latest",
     "istanbul": "latest",
+    "jaro-winkler": "latest",
     "request": "latest",
     "shelljs": "latest",
     "xml2js": "latest"
